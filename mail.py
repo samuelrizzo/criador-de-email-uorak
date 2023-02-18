@@ -5,7 +5,7 @@ import telebot
 
 
 class email:
-    token = "6127497230:AAFj9Xl_13uYxlQGa3FhOB5djwNNevmdEok"
+    token = "6127497230:AAGxMBQoa60BMdFVmUtW92a4mQ1bPatL48A"
     bot = telebot.TeleBot(token)
     message = bot.get_updates()[-1].message
     
